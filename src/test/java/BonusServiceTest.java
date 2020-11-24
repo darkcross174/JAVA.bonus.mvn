@@ -37,6 +37,7 @@ class BonusServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void houldCalculateNonRegisteredUnderLimit() {
         BonusService service = new BonusService();
@@ -54,6 +55,7 @@ class BonusServiceTest {
 
 
     }
+
     @Test
     void houldCalculateNonRegisteredOverLimit() {
         BonusService service = new BonusService();
